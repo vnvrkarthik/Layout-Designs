@@ -1,0 +1,32 @@
+VERSION 13-08-2025 21:44:34
+FIG #C:\Users\vnvrl\vnvr\Development\core\shasanth\microwind\inverter.MSK
+BB(24,-55,133,55)
+SIMU #50.00
+REC(24,-7,109,62,NW)
+REC(68,11,28,8,DP)
+REC(41,19,8,20,DP)
+REC(41,11,20,8,DP)
+REC(61,11,7,8,DP)
+REC(55,-42,6,7,DN)
+REC(47,-54,8,19,DN)
+REC(61,-42,7,7,DN)
+REC(68,-42,28,7,DN)
+REC(44,34,2,2,CO)
+REC(91,14,2,2,CO)
+REC(91,-40,2,2,CO)
+REC(50,-51,2,2,CO)
+REC(61,-44,7,69,PO)
+REC(40,30,60,10,ME)
+REC(45,-55,56,10,ME)
+REC(88,-42,7,61,ME)
+TITLE 68 -51  #Vss
+$0 1000 0 
+TITLE 68 35  #Vdd
+$1 1000 0 
+TITLE 92 -12  #s1
+$v 1000 0 
+TITLE 64 -28  #clock2
+$c 1000 0 2.5000 3.0000 5.5000 6.0000 
+TITLE 104 48  #Vdd
+$1 1000 0 
+FFIG C:\Users\vnvrl\vnvr\Development\core\shasanth\microwind\inverter.MSK
